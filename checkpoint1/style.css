@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 43, 43);
+}
+
+.title-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3vw;
+    margin-left: 2vw;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link-nav {
+    display: none;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+
+.search {
+    display: none;
+}
+
+@
